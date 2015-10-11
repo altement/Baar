@@ -10,141 +10,35 @@
 			<p class="categoryText">Menüü</p>
 		</div>
 
-		<div class="items">
-			<div class="item">
-				<div class="itemImage"><img src="images/cola.svg" alt="coca-cola"></div>
-				<div class="itemName">Coca-Cola 50cl</div>
-				<div class="itemPrice">2€</div>
+		<nav id="menuWrapper">
+			<div class="row" style="margin:0;margin-bottom: 50px;">
+				<div class="percentBlockHalf" style="margin-right: 25px;">
+					<img src="images/soup.svg">
+					<div class="menuBlockText">Supid</div>
+				</div>
+				<div class="percentBlockHalf" style="margin-left: 25px">
+					<img src="images/fries.svg">
+					<div class="menuBlockText">Lastele</div>
+				</div>
 			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 25cl</div>
-				<div class="itemPrice">1€</div>
+			<div class="row" style="margin:0;margin-bottom: 50px;">
+				<div class="percentBlockHalf" style="margin-right: 25px">
+					<img src="images/drink.svg">
+					<div class="menuBlockText">Joogid</div>
+				</div>
+				<div class="percentBlockHalf" style="margin-left: 25px">
+					<img src="images/food.svg">
+					<div class="menuBlockText">Pearoad</div>
+				</div>
 			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 50cl</div>
-				<div class="itemPrice">1.5€</div>
+			<div class="row nomargin">
+				<div class="percentBlockHalf" style="margin-right: 25px">
+					<img src="images/pancake.svg">
+					<div class="menuBlockText">Suupisted</div>
+				</div>
+				
 			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/beer.svg" alt="coca-cola"></div>
-				<div class="itemName">Saku Kuld 50cl</div>
-				<div class="itemPrice">2.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/cola.svg" alt="coca-cola"></div>
-				<div class="itemName">Coca-Cola 50cl</div>
-				<div class="itemPrice">2€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 25cl</div>
-				<div class="itemPrice">1€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 50cl</div>
-				<div class="itemPrice">1.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/beer.svg" alt="coca-cola"></div>
-				<div class="itemName">Saku Kuld 50cl</div>
-				<div class="itemPrice">2.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/cola.svg" alt="coca-cola"></div>
-				<div class="itemName">Coca-Cola 50cl</div>
-				<div class="itemPrice">2€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 25cl</div>
-				<div class="itemPrice">1€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 50cl</div>
-				<div class="itemPrice">1.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/beer.svg" alt="coca-cola"></div>
-				<div class="itemName">Saku Kuld 50cl</div>
-				<div class="itemPrice">2.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/cola.svg" alt="coca-cola"></div>
-				<div class="itemName">Coca-Cola 50cl</div>
-				<div class="itemPrice">2€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 25cl</div>
-				<div class="itemPrice">1€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 50cl</div>
-				<div class="itemPrice">1.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/beer.svg" alt="coca-cola"></div>
-				<div class="itemName">Saku Kuld 50cl</div>
-				<div class="itemPrice">2.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/cola.svg" alt="coca-cola"></div>
-				<div class="itemName">Coca-Cola 50cl</div>
-				<div class="itemPrice">2€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 25cl</div>
-				<div class="itemPrice">1€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 50cl</div>
-				<div class="itemPrice">1.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/beer.svg" alt="coca-cola"></div>
-				<div class="itemName">Saku Kuld 50cl</div>
-				<div class="itemPrice">2.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/cola.svg" alt="coca-cola"></div>
-				<div class="itemName">Coca-Cola 50cl</div>
-				<div class="itemPrice">2€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 25cl</div>
-				<div class="itemPrice">1€</div>
-			</div>
-
-			<div class="item">
-				<div class="itemImage"><img src="images/milk.svg" alt="coca-cola"></div>
-				<div class="itemName">Taanieli piim 50cl</div>
-				<div class="itemPrice">1.5€</div>
-			</div>
-			<div class="item">
-				<div class="itemImage"><img src="images/beer.svg" alt="coca-cola"></div>
-				<div class="itemName">Saku Kuld 50cl</div>
-				<div class="itemPrice">2.5€</div>
-			</div>
-		</div>
-
+		</nav>
 
 		<!--<nav id="bottomNavBar">
 			<div class="percentBlock">

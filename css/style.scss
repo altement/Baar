@@ -1,8 +1,14 @@
 $mainColor: #FF5714;
 $secondaryColor: #7CB518;
+$menuOuterColor: #FF712E;
+$menuInnerColor: #FF8A47;
+
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 html{
 	height:2000px;
+}
+body{
+	
 }
 .nomargin, p{
 	margin:0 !important;
@@ -11,6 +17,7 @@ html{
 	padding:0 !important;
 }
 #categoryTextWrapper{
+	z-index:2;
 	position:fixed;
 	width:100%;
 	background-color:$mainColor;
@@ -25,13 +32,41 @@ html{
 nav{
 	overflow:scroll;
 }
+#menuWrapper{
+	overflow:hidden;
+	width:100%;
+	padding:50px;
+	padding-top:176px;
+	background-color:$menuOuterColor;
+	white-space:nowrap;
+	.percentBlockHalf{
+		display:inline-block;
+		width:calc(50% - 25px);
+		height:0;
+		padding-bottom:50%; //fallback
+		padding-bottom:calc(50% - 25px);
+		background-color:$menuInnerColor;
+		img{
+			width:100%;
+			padding:100px;
+		}
+	}
+	.menuBlockText{
+		position:relative;
+		bottom:100px;
+		text-align:center;
+		color:#FFF;
+		font-size:50px;
+		z-index:1;
+	}
+}
 
 .items{
 	background-color:$secondaryColor;
-	padding-top:127px;
+	padding-top:126px;
 	margin-bottom:500px;
 	.item{
-	
+
 		padding:10px;
 		width:100%;
 		white-space:nowrap;
