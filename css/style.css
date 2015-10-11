@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html {
+  height: 2000px; }
+
+.nomargin, p {
+  margin: 0 !important; }
+
+.nopadding {
+  padding: 0 !important; }
+
+#categoryTextWrapper {
+  position: fixed;
+  width: 100%;
+  background-color: #FF5714; }
+  #categoryTextWrapper .categoryText {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 75px; }
+
+nav {
+  overflow: scroll; }
+
+.items {
+  background-color: #7CB518;
+  padding-top: 127px;
+  margin-bottom: 500px; }
+  .items .item {
+    padding: 10px;
+    width: 100%;
+    white-space: nowrap; }
+    .items .item .itemImage, .items .item .itemName, .items .item .itemPrice {
+      font-family: 'Roboto', sans-serif;
+      display: inline-block;
+      margin: 0;
+      text-align: center;
+      font-size: 50px; }
+    .items .item .itemImage {
+      width: 15%; }
+      .items .item .itemImage img {
+        height: 5%;
+        padding: 10px; }
+    .items .item .itemName {
+      width: 70%; }
+    .items .item .itemPrice {
+      width: 15%; }
+
+#bottomNavBar {
+  background-color: #FF5714;
+  position: fixed;
+  bottom: 0;
+  white-space: nowrap;
+  width: 100%;
+  overflow: scroll; }
+  #bottomNavBar .percentBlock {
+    display: inline-block;
+    width: 23%; }
+    #bottomNavBar .percentBlock a img {
+      width: 100%;
+      padding: 25px; }
+
+/*# sourceMappingURL=style.css.map */

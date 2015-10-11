@@ -1,0 +1,79 @@
+$mainColor: #FF5714;
+$secondaryColor: #7CB518;
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html{
+	height:2000px;
+}
+.nomargin, p{
+	margin:0 !important;
+}
+.nopadding{
+	padding:0 !important;
+}
+#categoryTextWrapper{
+	position:fixed;
+	width:100%;
+	background-color:$mainColor;
+	.categoryText{
+		text-align:center; 
+		padding:10px;
+		color:white;
+		font-size:75px;
+	}
+}
+
+nav{
+	overflow:scroll;
+}
+
+.items{
+	background-color:$secondaryColor;
+	padding-top:127px;
+	margin-bottom:500px;
+	.item{
+	
+		padding:10px;
+		width:100%;
+		white-space:nowrap;
+		.itemImage, .itemName, .itemPrice{
+		font-family: 'Roboto', sans-serif;
+			display:inline-block;
+			margin:0;
+			text-align:center;
+			font-size:50px;
+		}
+		.itemImage{
+			width:15%;
+			img{
+				height:5%;
+				padding:10px;
+			}
+		}
+		.itemName{
+			width:70%;
+		}
+		.itemPrice{
+			width:15%
+		}
+	}
+}
+
+#bottomNavBar{
+	background-color:$mainColor;
+	position:fixed;
+	bottom:0;
+	white-space:nowrap;
+	width:100%;
+	overflow:scroll;
+	.percentBlock{
+		display:inline-block;
+		width:23%;
+
+		a{
+			img{
+				width:100%;
+				padding:25px;
+			}
+		}
+	}	
+}
