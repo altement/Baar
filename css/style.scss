@@ -1,5 +1,5 @@
 $mainColor: #FF5714;
-$secondaryColor: #7CB518;
+$secondaryColor: #FF712E;
 $menuOuterColor: #FF712E;
 $menuInnerColor: #FF8A47;
 
@@ -71,10 +71,11 @@ nav{
 		width:100%;
 		white-space:nowrap;
 		.itemImage, .itemName, .itemPrice{
-		font-family: 'Roboto', sans-serif;
+			font-family: 'Roboto', sans-serif;
 			display:inline-block;
 			margin:0;
 			text-align:center;
+			color:white;
 			font-size:50px;
 		}
 		.itemImage{

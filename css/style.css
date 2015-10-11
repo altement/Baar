@@ -48,7 +48,7 @@ nav {
     z-index: 1; }
 
 .items {
-  background-color: #7CB518;
+  background-color: #FF712E;
   padding-top: 126px;
   margin-bottom: 500px; }
   .items .item {
@@ -60,6 +60,7 @@ nav {
       display: inline-block;
       margin: 0;
       text-align: center;
+      color: white;
       font-size: 50px; }
     .items .item .itemImage {
       width: 15%; }

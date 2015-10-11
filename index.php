@@ -1,6 +1,7 @@
 	<html>
 	<head>
 		<title>Alo barnoi</title>
+		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
@@ -11,7 +12,7 @@
 		</div>
 
 		<nav id="menuWrapper">
-			<div class="row" style="margin:0;margin-bottom: 50px;">
+			<div class="row nomargin">
 				<div class="percentBlockHalf" style="margin-right: 25px;">
 					<img src="images/soup.svg">
 					<div class="menuBlockText">Supid</div>
@@ -21,11 +22,13 @@
 					<div class="menuBlockText">Lastele</div>
 				</div>
 			</div>
-			<div class="row" style="margin:0;margin-bottom: 50px;">
-				<div class="percentBlockHalf" style="margin-right: 25px">
-					<img src="images/drink.svg">
-					<div class="menuBlockText">Joogid</div>
-				</div>
+			<div class="row nomargin">
+				<a href="joogid.php">
+					<div class="percentBlockHalf" style="margin-right: 25px">
+						<img src="images/drink.svg">
+						<div class="menuBlockText">Joogid</div>
+					</div>
+				</a>
 				<div class="percentBlockHalf" style="margin-left: 25px">
 					<img src="images/food.svg">
 					<div class="menuBlockText">Pearoad</div>
