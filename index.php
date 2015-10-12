@@ -33,16 +33,20 @@
 						<div class="menuBlockText">Joogid</div>
 					</div>
 				</a>
-				<div class="percentBlockHalf" style="margin-left: 25px">
-					<img src="images/food.svg">
-					<div class="menuBlockText">Pearoad</div>
-				</div>
+				<a href="pearoad.php">
+					<div class="percentBlockHalf" style="margin-left: 25px">
+						<img src="images/food.svg">
+						<div class="menuBlockText">Pearoad</div>
+					</div>
+				</a>
 			</div>
 			<div class="row nomargin">
-				<div class="percentBlockHalf" style="margin-right: 25px">
-					<img src="images/pancake.svg">
-					<div class="menuBlockText">Suupisted</div>
-				</div>
+				<a href="suupisted.php">
+					<div class="percentBlockHalf" style="margin-right: 25px">
+						<img src="images/pancake.svg">
+						<div class="menuBlockText">Suupisted</div>
+					</div>
+				</a>
 			</div>
 		</nav>
 
