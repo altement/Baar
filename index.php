@@ -1,6 +1,6 @@
 	<html>
 	<head>
-		<title>Alo barnoi</title>
+		<title>Ali</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -13,14 +13,18 @@
 
 		<nav id="menuWrapper">
 			<div class="row nomargin">
-				<div class="percentBlockHalf" style="margin-right: 25px;">
-					<img src="images/soup.svg">
-					<div class="menuBlockText">Supid</div>
-				</div>
-				<div class="percentBlockHalf" style="margin-left: 25px">
-					<img src="images/fries.svg">
-					<div class="menuBlockText">Lastele</div>
-				</div>
+				<a href="supid.php">
+					<div class="percentBlockHalf" style="margin-right: 25px;">
+						<img src="images/soup.svg">
+						<div class="menuBlockText">Supid</div>
+					</div>
+				</a>
+				<a href="lastele.php">
+					<div class="percentBlockHalf" style="margin-left: 25px">
+						<img src="images/fries.svg">
+						<div class="menuBlockText">Lastele</div>
+					</div>
+				</a>
 			</div>
 			<div class="row nomargin">
 				<a href="joogid.php">
@@ -39,7 +43,6 @@
 					<img src="images/pancake.svg">
 					<div class="menuBlockText">Suupisted</div>
 				</div>
-				
 			</div>
 		</nav>
 

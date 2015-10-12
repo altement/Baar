@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 html {
-  height: 2000px; }
+  height: 2000px;
+  background-color: #FF712E; }
+
+body {
+  background-color: #FF712E; }
 
 .nomargin, p {
   margin: 0 !important; }
@@ -15,9 +19,8 @@ html {
   background-color: #FF5714; }
   #categoryTextWrapper .categoryText {
     text-align: center;
-    padding: 10px;
     color: white;
-    font-size: 75px; }
+    font-size: 100px; }
 
 nav {
   overflow: scroll; }
@@ -26,7 +29,7 @@ nav {
   overflow: hidden;
   width: 100%;
   padding: 50px;
-  padding-top: 176px;
+  padding-top: 192px;
   background-color: #FF712E;
   white-space: nowrap; }
   #menuWrapper .percentBlockHalf {
@@ -49,7 +52,7 @@ nav {
 
 .items {
   background-color: #FF712E;
-  padding-top: 126px;
+  padding-top: 142px;
   margin-bottom: 500px; }
   .items .item {
     padding: 10px;
