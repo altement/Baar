@@ -25,7 +25,14 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<div id="categoryTextWrapper">
+		<div id="sidebarMenu">
+			Viiiiiiiiiina
+		</div>
+		<div id="mainContent">
+			<div id="categoryTextWrapper">
+			<div class="hamburger">
+				<img src="images/burger.svg">
+			</div>
 			<p class="categoryText">'.$categoryText.'</p>
 		</div>
 		<div class="items">

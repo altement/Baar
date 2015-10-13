@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 html {
   height: 2000px;
-  background-color: #FF712E; }
+  background-color: #2ecc71; }
 
 body {
-  background-color: #FF712E; }
+  background-color: #2ecc71; }
 
 .nomargin, p {
   margin: 0 !important; }
@@ -16,11 +16,44 @@ body {
   z-index: 2;
   position: fixed;
   width: 100%;
-  background-color: #FF5714; }
-  #categoryTextWrapper .categoryText {
+  background-color: #27ae60; }
+  #categoryTextWrapper .categoryText, #categoryTextWrapper .addressText {
     text-align: center;
     color: white;
     font-size: 100px; }
+  #categoryTextWrapper .addressText {
+    font-size: 50px; }
+  #categoryTextWrapper a img {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 31px;
+    right: 31px; }
+  #categoryTextWrapper .hamburger img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 21px;
+    left: 21px;
+    border: 15px solid white;
+    cursor: pointer; }
+
+#sidebarMenu {
+  height: 100%;
+  position: fixed;
+  background: #15B358;
+  width: 0;
+  display: none;
+  z-index: 1;
+  color: white; }
+
+.mainPageWrapper {
+  padding-top: 213px;
+  width: 100%; }
+  .mainPageWrapper .openTimes {
+    font-size: 50px;
+    text-align: center;
+    color: white; }
 
 nav {
   overflow: scroll; }
@@ -30,7 +63,7 @@ nav {
   width: 100%;
   padding: 50px;
   padding-top: 192px;
-  background-color: #FF712E;
+  background-color: #2ecc71;
   white-space: nowrap; }
   #menuWrapper .percentBlockHalf {
     display: inline-block;
@@ -38,7 +71,7 @@ nav {
     height: 0;
     padding-bottom: 50%;
     padding-bottom: calc(50% - 25px);
-    background-color: #FF8A47; }
+    background-color: #48E68B; }
     #menuWrapper .percentBlockHalf img {
       width: 100%;
       padding: 100px; }
@@ -51,7 +84,7 @@ nav {
     z-index: 1; }
 
 .items {
-  background-color: #FF712E;
+  background-color: #48E68B;
   padding-top: 142px;
   margin-bottom: 500px; }
   .items .item {
@@ -76,17 +109,20 @@ nav {
       width: 15%; }
 
 #bottomNavBar {
-  background-color: #FF5714;
+  background-color: #27ae60;
   position: fixed;
   bottom: 0;
   white-space: nowrap;
   width: 100%;
   overflow: scroll; }
-  #bottomNavBar .percentBlock {
+  #bottomNavBar .percentBlock, #bottomNavBar .percentBlockMainPage {
     display: inline-block;
     width: 23%; }
-    #bottomNavBar .percentBlock a img {
+    #bottomNavBar .percentBlock a img, #bottomNavBar .percentBlockMainPage a img {
       width: 100%;
       padding: 25px; }
+  #bottomNavBar .percentBlockMainPage {
+    width: 25%;
+    padding: 25px; }
 
 /*# sourceMappingURL=style.css.map */
