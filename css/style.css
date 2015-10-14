@@ -44,7 +44,7 @@ body {
   background: #15B358;
   width: 0;
   display: none;
-  z-index: 1;
+  z-index: 2;
   color: white; }
 
 .mainPageWrapper {

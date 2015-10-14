@@ -32,7 +32,7 @@
 
 			<nav id="bottomNavBar">
 				<div class="percentBlockMainPage">
-					<a href="menu.php"><img src="images/menu2.svg" alt="Supid"></a>
+					<a href="menu.php"><img src="images/menuFinal.svg" alt="Supid"></a>
 				</div>
 				<div class="percentBlockMainPage">
 					<a href="uritused.php"><img src="images/event.svg" alt="Pearoad"></a>

@@ -7,10 +7,16 @@
 	</head>
 
 	<body>
-		<div id="categoryTextWrapper">
+		<div id="sidebarMenu">
+			Viiiiiiiiiina
+		</div>
+		<div id="mainContent">
+			<div id="categoryTextWrapper">
+			<div class="hamburger">
+				<img src="images/burger.svg">
+			</div>
 			<p class="categoryText">Menüü</p>
 		</div>
-
 		<nav id="menuWrapper">
 			<div class="row nomargin">
 				<a href="supid.php">
