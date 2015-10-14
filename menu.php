@@ -8,7 +8,7 @@
 
 	<body>
 		<div id="sidebarMenu">
-			Viiiiiiiiiina
+		
 		</div>
 		<div id="mainContent">
 			<div id="categoryTextWrapper">

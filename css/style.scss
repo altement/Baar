@@ -64,7 +64,16 @@ body{
   display:none;
   z-index:2;
   color:white;
- }
+  padding-top:213px;
+  #sidebarMenuLinks{
+  		text-align:center;
+  		background-color:$menuInnerColor;
+  	a{
+  		font-size:100px;
+  		color:white;
+  	}
+  }
+}
 
 .mainPageWrapper{
 	padding-top:213px;

@@ -45,7 +45,14 @@ body {
   width: 0;
   display: none;
   z-index: 2;
-  color: white; }
+  color: white;
+  padding-top: 213px; }
+  #sidebarMenu #sidebarMenuLinks {
+    text-align: center;
+    background-color: #48E68B; }
+    #sidebarMenu #sidebarMenuLinks a {
+      font-size: 100px;
+      color: white; }
 
 .mainPageWrapper {
   padding-top: 213px;

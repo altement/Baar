@@ -8,7 +8,9 @@
 
 	<body>
 		<div id="sidebarMenu">
-			Viiiiiiiiiina
+			<nav id="sidebarMenuLinks">
+				<a href="index.php">Avaleht</a>
+			</nav>
 		</div>
 		<div id="mainContent">
 			<div id="categoryTextWrapper">
@@ -50,5 +52,6 @@
 	</body>
 	<script src="js/jquery.js"></script>
 	<script src="js/script.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 </html>

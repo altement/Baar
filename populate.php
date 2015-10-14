@@ -26,7 +26,9 @@
 	</head>
 	<body>
 		<div id="sidebarMenu">
-			Viiiiiiiiiina
+			<nav id="sidebarMenuLinks">
+				<a href="index.php">Avaleht</a>
+			</nav>
 		</div>
 		<div id="mainContent">
 			<div id="categoryTextWrapper">

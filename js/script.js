@@ -6,11 +6,19 @@ $(function(){
 	        $('#sidebarMenu').animate({ 'width': '0px' }, 'medium', function(){
 	            $('#sidebarMenu').hide();
 	        });
-	        $('#mainContent').animate({ 'margin-left': '0px' }, 'medium');
 	    }
 	    else {
 	        $('#sidebarMenu').show();
 	        $('#sidebarMenu').animate({ 'width': '800px' }, 'medium');
 	    }
+	});
+	$("body").on("swipeleft",function(){
+	  	$('#sidebarMenu').animate({ 'width': '0px' }, 'medium', function(){
+	        $('#sidebarMenu').hide();
+	    });
+	});
+	$("body").on("swiperight",function(){
+	  	$('#sidebarMenu').show();
+	    $('#sidebarMenu').animate({ 'width': '800px' }, 'medium');
 	});
 });
