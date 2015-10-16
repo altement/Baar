@@ -1,9 +1,15 @@
-$mainColor: #27ae60;
+$mainColor: #000;
 $secondaryColor: #FF712E;
-$menuOuterColor: #2ecc71;
-$menuInnerColor: #48E68B;
+$menuOuterColor: #080808;
+$menuInnerColor: #101010;
 
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@font-face {
+    font-family: pop-out;
+    src: url(../fonts/BebasNeueBold.otf);
+}
+//@import url(https://fonts.googleapis.com/css?family=Oswald);
+//@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,600);
 html{
 	height:2000px;
 	background-color:$menuOuterColor;
@@ -17,6 +23,7 @@ body{
 .nopadding{
 	padding:0 !important;
 }
+
 #categoryTextWrapper{
 	z-index:2;
 	position:fixed;
@@ -27,18 +34,20 @@ body{
 	.categoryText, .addressText{
 		text-align:center; 
 		color:white;
-		font-size:100px;
+		font-size:102px;
+		font-family: 'Dosis', sans-serif;
 	}
 	.addressText{
-		font-size:50px;
+		font-size:40px;
+		margin-top:-25px !important;
 	}
 	a{
 		img{
 			position:absolute;
-			height:150px;
-			width:150px;
-			top:31px;
-			right:31px;
+			height:100px;
+			width:100px;
+			top:23px;
+			right:23px;
 		}
 	}
 	.hamburger{
@@ -46,42 +55,61 @@ body{
 			position:absolute;
 			height:100px;
 			width:100px;
-			top:21px;
-			left:21px;
-			border:15px solid white;
+			top:23px;
+			left:23px;
+			border:10px solid white;
 			cursor:pointer;
+			
 		}
 	}
 }
-.mainContent{
 
-}
 #sidebarMenu {
   height: 100%;
+  border-right:10px solid black;
   position: fixed;
-  background: #15B358;
+  background: #000;
   width:0;
   display:none;
   z-index:2;
   color:white;
-  padding-top:213px;
+  padding-top:147px;
   #sidebarMenuLinks{
   		text-align:center;
   		background-color:$menuInnerColor;
   	a{
+  		display:block;
   		font-size:100px;
   		color:white;
+  		text-decoration:none;
+  		border-bottom:10px solid black;
+  		font-family: 'Dosis', sans-serif;
   	}
   }
 }
 
 .mainPageWrapper{
-	padding-top:213px;
+	padding-top:146px;
 	width:100%;
-	.openTimes{
+	.mainPageContent{
 		font-size:50px;
 		text-align:center; 
 		color:white;
+		font-family:pop-out;
+		img{
+			width:100%;
+			margin-bottom:25px;
+		}
+		.openTimes{
+			
+		}
+		#welcome{
+			font-size:125px;
+		}
+		#text-mainpage{
+			padding-left:10px;
+			padding-right:10px;
+		}
 	}
 }
 nav{
@@ -147,26 +175,28 @@ nav{
 		}
 	}
 }
-
 #bottomNavBar{
 	background-color:$mainColor;
 	position:fixed;
 	bottom:0;
 	white-space:nowrap;
+	height:auto;
 	width:100%;
-	overflow:scroll;
+	//border-top:5px solid #FFF;
+	overflow:hidden; // scroll et saada scrollable!!"#!"#!"#DFSASFASDFASDFASDFASDF"
 	.percentBlock, .percentBlockMainPage{
 		display:inline-block;
-		width:23%;
+		width:20%;
 		a{
 			img{
-				width:100%;
+				display:block;
+				width:75%;
 				padding:25px;
+				margin:auto
 			}
 		}
 	}
 	.percentBlockMainPage{
 		width:25%;
-		padding:25px;
 	}
 }

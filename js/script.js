@@ -1,5 +1,5 @@
 $(function(){
-    
+    var width = $(window).width()/1.25;
 
     $('.hamburger img').on('click', function(){
 	    if( $('#sidebarMenu').is(':visible') ) {
@@ -9,7 +9,7 @@ $(function(){
 	    }
 	    else {
 	        $('#sidebarMenu').show();
-	        $('#sidebarMenu').animate({ 'width': '800px' }, 'medium');
+	        $('#sidebarMenu').animate({ 'width': '90%' }, 'medium');
 	    }
 	});
 	$("body").on("swipeleft",function(){
@@ -19,6 +19,6 @@ $(function(){
 	});
 	$("body").on("swiperight",function(){
 	  	$('#sidebarMenu').show();
-	    $('#sidebarMenu').animate({ 'width': '800px' }, 'medium');
+	    $('#sidebarMenu').animate({ 'width': width }, 'medium');
 	});
 });

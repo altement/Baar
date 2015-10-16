@@ -1,22 +1,28 @@
 <?php 
+	error_reporting(0);
+
 	$localhost = "localhost";
 	$user = "root";
 	$pass = "";
 	$db_name = "items";
+	/*$localhost = "mysql7.000webhost.com";
+	$db_name = "a3432704_uko";
+	$user = "a3432704_uko";
+	$pass = "uko123";*/
 
 	$link = mysqli_connect($localhost, $user, $pass, $db_name);
 	if(mysqli_connect_errno()){
 		echo 'errur';
 	}
 	$categoryTextDefault = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
-	$categoryTextLower = strtolower($categoryTextDefault);
-	$categoryText = ucfirst($categoryTextLower);
+	$categoryText = strtoupper($categoryTextDefault);
 	mysqli_query($link, "SELECT * FROM ". $categoryText);
 	$sql = "SELECT * FROM ". $categoryText;
 	$result = $link->query($sql);
 	
 
 	echo'
+	<!DOCTYPE html>
 	<html>
 	<head>
 		<title>Ali</title>
@@ -28,6 +34,10 @@
 		<div id="sidebarMenu">
 			<nav id="sidebarMenuLinks">
 				<a href="index.php">Avaleht</a>
+				<a href="menu.php">Menüü</a>
+				<a href="uritused.php">Üritused</a>
+				<a href="galerii.php">Galerii</a>
+				<a href="kontakt.php">Kontakt</a>
 			</nav>
 		</div>
 		<div id="mainContent">
@@ -51,7 +61,7 @@
 						</div>';
 				    }
 				} else {
-				    echo "0 results";
+				    echo "Tühi";
 				}
 				mysqli_close($link);
 			echo'

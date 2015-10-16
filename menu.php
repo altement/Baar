@@ -1,3 +1,4 @@
+	<!DOCTYPE html>
 	<html>
 	<head>
 		<title>Ali</title>
@@ -7,15 +8,15 @@
 	</head>
 
 	<body>
-		<div id="sidebarMenu">
-		
+		<div id="sidebarMenu" style="padding-top:146px">
+			<?php include 'sidebarMenu.php' ?>
 		</div>
 		<div id="mainContent">
 			<div id="categoryTextWrapper">
 			<div class="hamburger">
 				<img src="images/burger.svg">
 			</div>
-			<p class="categoryText">Menüü</p>
+			<p class="categoryText">MENÜÜ</p>
 		</div>
 		<nav id="menuWrapper">
 			<div class="row nomargin">
