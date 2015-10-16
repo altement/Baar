@@ -30,7 +30,7 @@
 					<img src="http://img05.deviantart.net/787d/i/2013/095/4/2/la_dee_da___panorama_1_by_wulfman65-d60iwck.jpg">
 					<p id="welcome">Tere tulemast!</p>
 					<p id="text-mainpage">Viplala baar on koht kus lõbusalt aega veeta, nautida parimaid käsitööõllesid, vaadata suurimaid spordiülekandeid, pidada sünnipäevi ja palju muud.</p>
-					<p id="text-mainpage"></p>
+					<p id="text-mainpage">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet quam et tortor vehicula, tristique tempor mauris sagittis. In urna dolor, hendrerit vel luctus eget, ullamcorper sed est. Sed pellentesque dolor vehicula tempor egestas. Pellentesque euismod metus at egestas tempus. Nulla a odio eu sapien pharetra tincidunt iaculis vitae lorem. Mauris quis accumsan quam, sed hendrerit ante. Phasellus venenatis eget turpis sed hendrerit. Vestibulum bibendum urna magna, eu feugiat sem pharetra id. Morbi eget magna sit amet eros vehicula volutpat. Mauris ut tristique odio, egestas eleifend lorem. Mauris tincidunt sed lorem ut iaculis. Etiam ipsum velit, imperdiet eu libero ut, varius eleifend tellus.</p>
 
 					<!--<p class="openTimes">
 						P-N 12:00-00:00
@@ -62,6 +62,7 @@
 	
 	</body>
 	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.js"></script>
 	<script src="js/script.js"></script>
 	
 

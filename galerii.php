@@ -3,6 +3,7 @@
 	<head>
 		<title>Ali</title>
 		<meta charset="utf-8">
+		<meta content='user-scalable=0' name='viewport' />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
@@ -31,5 +32,6 @@
 		</div>
 	</body>
 	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.js"></script>
 	<script src="js/script.js"></script>
 </html>

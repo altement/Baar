@@ -3,7 +3,6 @@
   font-family: pop-out;
   src: url(../fonts/BebasNeueBold.otf); }
 html {
-  height: 2000px;
   background-color: #080808; }
 
 body {
@@ -116,7 +115,8 @@ nav {
   .items .item {
     padding: 10px;
     width: 100%;
-    white-space: nowrap; }
+    white-space: nowrap;
+    border-bottom: 10px solid #000; }
     .items .item .itemImage, .items .item .itemName, .items .item .itemPrice {
       font-family: 'Roboto', sans-serif;
       display: inline-block;
@@ -127,8 +127,8 @@ nav {
     .items .item .itemImage {
       width: 15%; }
       .items .item .itemImage img {
-        height: 5%;
-        padding: 10px; }
+        width: 100%;
+        padding: 25px; }
     .items .item .itemName {
       width: 70%; }
     .items .item .itemPrice {

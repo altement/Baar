@@ -1,6 +1,6 @@
 $(function(){
-    var width = $(window).width()/1.25;
-
+    var bottomMargin = $("#bottomNavBar").height();
+    $("body").css("margin-bottom", bottomMargin);
     $('.hamburger img').on('click', function(){
 	    if( $('#sidebarMenu').is(':visible') ) {
 	        $('#sidebarMenu').animate({ 'width': '0px' }, 'medium', function(){
@@ -12,13 +12,13 @@ $(function(){
 	        $('#sidebarMenu').animate({ 'width': '90%' }, 'medium');
 	    }
 	});
-	$("body").on("swipeleft",function(){
+	$("html").on("swipeleft",function(){
 	  	$('#sidebarMenu').animate({ 'width': '0px' }, 'medium', function(){
 	        $('#sidebarMenu').hide();
 	    });
 	});
-	$("body").on("swiperight",function(){
+	$("html").on("swiperight",function(){
 	  	$('#sidebarMenu').show();
-	    $('#sidebarMenu').animate({ 'width': width }, 'medium');
+	    $('#sidebarMenu').animate({ 'width': "90%" }, 'medium');
 	});
 });

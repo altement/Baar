@@ -11,7 +11,6 @@ $menuInnerColor: #101010;
 //@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Dosis:400,600);
 html{
-	height:2000px;
 	background-color:$menuOuterColor;
 }
 body{
@@ -152,6 +151,7 @@ nav{
 		padding:10px;
 		width:100%;
 		white-space:nowrap;
+		border-bottom:10px solid #000;
 		.itemImage, .itemName, .itemPrice{
 			font-family: 'Roboto', sans-serif;
 			display:inline-block;
@@ -163,8 +163,8 @@ nav{
 		.itemImage{
 			width:15%;
 			img{
-				height:5%;
-				padding:10px;
+				width:100%;
+				padding:25px;
 			}
 		}
 		.itemName{
