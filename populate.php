@@ -1,6 +1,5 @@
 <?php 
 	error_reporting(0);
-
 	$localhost = "localhost";
 	$user = "root";
 	$pass = "";
@@ -11,13 +10,14 @@
 	$pass = "uko123";*/
 
 	$link = mysqli_connect($localhost, $user, $pass, $db_name);
+	mysqli_set_charset($link , "utf8");
 	if(mysqli_connect_errno()){
 		echo 'errur';
 	}
 	$categoryTextDefault = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
 	$categoryText = strtoupper($categoryTextDefault);
-	mysqli_query($link, "SELECT * FROM ". $categoryText);
 	$sql = "SELECT * FROM ". $categoryText;
+	mysqli_query($link, $sql);
 	$result = $link->query($sql);
 	
 

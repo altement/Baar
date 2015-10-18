@@ -49,7 +49,7 @@ body {
   background: #000;
   width: 0;
   display: none;
-  z-index: 2;
+  z-index: 1;
   color: white;
   padding-top: 147px; }
   #sidebarMenu #sidebarMenuLinks {
@@ -74,11 +74,40 @@ body {
     .mainPageWrapper .mainPageContent img {
       width: 100%;
       margin-bottom: 25px; }
+    .mainPageWrapper .mainPageContent .openTimes-left {
+      display: inline-block;
+      text-align: left;
+      padding-left: 50px;
+      width: 50%;
+      font-size: 50px; }
+    .mainPageWrapper .mainPageContent .openTimes-right {
+      display: inline-block;
+      text-align: right;
+      padding-right: 50px;
+      width: 50%;
+      font-size: 50px; }
     .mainPageWrapper .mainPageContent #welcome {
       font-size: 125px; }
     .mainPageWrapper .mainPageContent #text-mainpage {
       padding-left: 10px;
       padding-right: 10px; }
+    .mainPageWrapper .mainPageContent #text-contactpage {
+      text-align: left;
+      padding-left: 50px;
+      padding-right: 50px; }
+    .mainPageWrapper .mainPageContent .event:first-child {
+      border-top: 10px solid #FFF; }
+    .mainPageWrapper .mainPageContent .event {
+      border-bottom: 10px solid #fff; }
+      .mainPageWrapper .mainPageContent .event .date {
+        font-size: 100px;
+        color: #2e8ece; }
+      .mainPageWrapper .mainPageContent .event .eventName {
+        font-size: 75px;
+        margin-top: -25px; }
+      .mainPageWrapper .mainPageContent .event .eventDesc {
+        font-size: 40px;
+        color: grey; }
 
 nav {
   overflow: scroll; }
@@ -88,6 +117,7 @@ nav {
   width: 100%;
   padding: 50px;
   padding-top: 192px;
+  padding-bottom: 0;
   background-color: #080808;
   white-space: nowrap; }
   #menuWrapper .percentBlockHalf {
@@ -106,7 +136,7 @@ nav {
     text-align: center;
     color: #FFF;
     font-size: 50px;
-    z-index: 1; }
+    z-index: 0; }
 
 .items {
   background-color: #101010;
@@ -141,6 +171,7 @@ nav {
   white-space: nowrap;
   height: auto;
   width: 100%;
+  z-index: 1;
   overflow: hidden; }
   #bottomNavBar .percentBlock, #bottomNavBar .percentBlockMainPage {
     display: inline-block;
@@ -152,5 +183,9 @@ nav {
       margin: auto; }
   #bottomNavBar .percentBlockMainPage {
     width: 25%; }
+
+#map {
+  width: 100%;
+  height: 500px; }
 
 /*# sourceMappingURL=style.css.map */
