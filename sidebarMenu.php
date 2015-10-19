@@ -1,7 +1,7 @@
 <nav id="sidebarMenuLinks">
-	<a href="index.php">AVALEHT</a>
-	<a href="menu.php">MENÜÜ</a>
-	<a href="uritused.php">ÜRITUSED</a>
-	<a href="galerii.php">GALERII</a>
-	<a href="kontakt.php">KONTAKT</a>
+	<a href="index">AVALEHT</a>
+	<a href="menu">MENÜÜ</a>
+	<a href="uritused">ÜRITUSED</a>
+	<a href="galerii">GALERII</a>
+	<a href="kontakt">KONTAKT</a>
 </nav>

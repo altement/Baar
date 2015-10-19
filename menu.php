@@ -21,13 +21,13 @@
 		</div>
 		<nav id="menuWrapper">
 			<div class="row nomargin">
-				<a href="supid.php">
+				<a href="supid">
 					<div class="percentBlockHalf" style="margin-right: 25px;">
 						<img src="images/soup.svg">
 						<div class="menuBlockText">Supid</div>
 					</div>
 				</a>
-				<a href="lastele.php">
+				<a href="lastele">
 					<div class="percentBlockHalf" style="margin-left: 25px">
 						<img src="images/fries.svg">
 						<div class="menuBlockText">Lastele</div>
@@ -35,13 +35,13 @@
 				</a>
 			</div>
 			<div class="row nomargin">
-				<a href="joogid.php">
+				<a href="joogid">
 					<div class="percentBlockHalf" style="margin-right: 25px">
 						<img src="images/drink.svg">
 						<div class="menuBlockText">Joogid</div>
 					</div>
 				</a>
-				<a href="pearoad.php">
+				<a href="pearoad">
 					<div class="percentBlockHalf" style="margin-left: 25px">
 						<img src="images/food.svg">
 						<div class="menuBlockText">Pearoad</div>
@@ -49,7 +49,7 @@
 				</a>
 			</div>
 			<div class="row nomargin">
-				<a href="suupisted.php">
+				<a href="suupisted">
 					<div class="percentBlockHalf" style="margin-right: 25px">
 						<img src="images/pancake.svg">
 						<div class="menuBlockText">Suupisted</div>

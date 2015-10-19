@@ -34,11 +34,11 @@
 	<body>
 		<div id="sidebarMenu">
 			<nav id="sidebarMenuLinks">
-				<a href="index.php">Avaleht</a>
-				<a href="menu.php">Menüü</a>
-				<a href="uritused.php">Üritused</a>
-				<a href="galerii.php">Galerii</a>
-				<a href="kontakt.php">Kontakt</a>
+				<a href="index">Avaleht</a>
+				<a href="menu">Menüü</a>
+				<a href="uritused">Üritused</a>
+				<a href="galerii">Galerii</a>
+				<a href="kontakt">Kontakt</a>
 			</nav>
 		</div>
 		<div id="mainContent">
@@ -72,19 +72,19 @@
 
 		<nav id="bottomNavBar">
 			<div class="percentBlock">
-				<a href="supid.php"><img src="images/soup.svg" alt="Supid"></a>
+				<a href="supid"><img src="images/soup.svg" alt="Supid"></a>
 			</div>
 			<div class="percentBlock">
-				<a href="pearoad.php"><img src="images/food.svg" alt="Pearoad"></a>
+				<a href="pearoad"><img src="images/food.svg" alt="Pearoad"></a>
 			</div>
 			<div class="percentBlock">
-				<a href="suupisted.php"><img src="images/pancake.svg" alt="Suupisted"></a>
+				<a href="suupisted"><img src="images/pancake.svg" alt="Suupisted"></a>
 			</div>
 			<div class="percentBlock">
-				<a href="joogid.php"><img src="images/drink.svg" alt="Joogid"></a>
+				<a href="joogid"><img src="images/drink.svg" alt="Joogid"></a>
 			</div>
 			<div class="percentBlock">
-				<a href="lastele.php"><img src="images/fries.svg" alt="Lastetoit"></a>
+				<a href="lastele"><img src="images/fries.svg" alt="Lastetoit"></a>
 			</div>
 
 		</nav>
