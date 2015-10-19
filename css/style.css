@@ -106,8 +106,7 @@ body {
         font-size: 75px;
         margin-top: -25px; }
       .mainPageWrapper .mainPageContent .event .eventDesc {
-        font-size: 40px;
-        color: grey; }
+        font-size: 40px; }
 
 nav {
   overflow: scroll; }
@@ -128,6 +127,7 @@ nav {
     padding-bottom: calc(50% - 25px);
     background-color: #101010; }
     #menuWrapper .percentBlockHalf img {
+      display: block;
       width: 100%;
       padding: 100px; }
   #menuWrapper .menuBlockText {

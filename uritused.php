@@ -18,6 +18,9 @@
 				<img src="images/burger.svg">
 			</div>
 			<p class="categoryText">ÜRITUSED</p>
+			<a href="https://goo.gl/maps/kZamHvJBYZN2">
+				<img src="images/map.svg">
+			</a>
 		</div>
 		<div class="mainPageWrapper">
 

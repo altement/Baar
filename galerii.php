@@ -17,8 +17,7 @@
 				<div class="hamburger">
 					<img src="images/burger.svg" style="height:100px; width:100px; border:10px solid white">
 				</div>
-				<p class="categoryText" style="font-size:80px">VIPLALA BAAR</p>
-				<p class="addressText">PALDISKI MAANTEE 50</p>
+				<p class="categoryText">GALERII</p>
 				<a href="https://goo.gl/maps/kZamHvJBYZN2">
 					<img src="images/map.svg">
 				</a>

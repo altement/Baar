@@ -18,19 +18,21 @@
 				<img src="images/burger.svg">
 			</div>
 			<p class="categoryText">KONTAKT</p>
+			<a href="https://goo.gl/maps/kZamHvJBYZN2">
+				<img src="images/map.svg">
+			</a>
 		</div>
 		<div class="mainPageWrapper">
 
 			<div class="mainPageContent">
 				<div id="map"></div>
 				<p id="welcome">Viplala baar</p>
-				
-
-				<p id="text-contactpage"><div class="openTimes-left">P-N 12:00-00:00</div><div class="openTimes-right">R-L 10:00-04:00</div></p>
-				<p id="text-contactpage">Happy hour iga päev kell 20:00-21:00</p>
 				<p id="text-contactpage">Paldiski maantee 50</p>
 				<p id="text-contactpage">56904956</p>
 				<p id="text-contactpage">viplala@baar.ee</p>
+				<p id="text-contactpage" style="color:#f1c40f">Happy hour iga päev kell 20:00-21:00</p>
+				<p id="text-contactpage" style="color:#2e8ece">P-N 12:00-00:00</p>
+				<p id="text-contactpage" style="color:#2e8ece">R-L 10:00-04:00</p>
 
 			</div>
 
