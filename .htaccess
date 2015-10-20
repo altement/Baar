@@ -1,6 +1,9 @@
+<IfModule mod_rewrite.c> 
+Options +FollowSymLinks 
 RewriteEngine On
 
 ErrorDocument 404 /baar/404
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
+</IfModule>
