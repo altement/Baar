@@ -39,16 +39,16 @@
 
 			<nav id="bottomNavBar" style="overflow:hidden">
 				<div class="percentBlockMainPage">
-					<a href="menu.php"><img src="images/menuFinal.svg" alt="Supid"></a>
+					<a href="menu"><img src="images/menuFinal.svg" alt="Supid"></a>
 				</div>
 				<div class="percentBlockMainPage">
-					<a href="uritused.php"><img src="images/event.svg" alt="Pearoad"></a>
+					<a href="uritused"><img src="images/event.svg" alt="Pearoad"></a>
 				</div>
 				<div class="percentBlockMainPage">
-					<a href="galerii.php"><img src="images/gallery.svg" alt="Suupisted"></a>
+					<a href="galerii"><img src="images/gallery.svg" alt="Suupisted"></a>
 				</div>
 				<div class="percentBlockMainPage">
-					<a href="kontakt.php"><img src="images/contacts.svg" alt="Lastetoit"></a>
+					<a href="kontakt"><img src="images/contacts.svg" alt="Lastetoit"></a>
 				</div>
 
 			</nav>

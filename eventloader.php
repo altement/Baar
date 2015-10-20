@@ -2,7 +2,7 @@
 	error_reporting(0);
 	$localhost = "localhost";
 	$user = "root";
-	$pass = "";
+	$pass = "delfiinidonVÄIKSEMADkoerad";
 	$db_name = "items";
 	$today = date('Y-m-j');
 

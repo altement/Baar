@@ -1,13 +1,13 @@
 <?php 
-	error_reporting(0);
+	
 	$localhost = "localhost";
 	$user = "root";
-	$pass = "";
+	$pass = "delfiinidonVÄIKSEMADkoerad";
 	$db_name = "items";
-	/*$localhost = "mysql7.000webhost.com";
-	$db_name = "a3432704_uko";
-	$user = "a3432704_uko";
-	$pass = "uko123";*/
+	/*$localhost = "46.101.168.209";
+	$db_name = "items";
+	$user = "root";
+	$pass = "";*/
 
 	$link = mysqli_connect($localhost, $user, $pass, $db_name);
 	mysqli_set_charset($link , "utf8");
@@ -15,12 +15,10 @@
 		echo 'errur';
 	}
 	$categoryTextDefault = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
-	$categoryText = strtoupper($categoryTextDefault);
+	$categoryText = $categoryTextDefault;
 	$sql = "SELECT * FROM ". $categoryText;
 	mysqli_query($link, $sql);
 	$result = $link->query($sql);
-	
-
 	echo'
 	<!DOCTYPE html>
 	<html>
@@ -46,7 +44,7 @@
 			<div class="hamburger">
 				<img src="images/burger.svg">
 			</div>
-			<p class="categoryText">'.$categoryText.'</p>
+			<p class="categoryText">'.strtoupper($categoryText).'</p>
 		</div>
 		<div class="items">
 			
