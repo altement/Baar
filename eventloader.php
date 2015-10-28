@@ -18,7 +18,7 @@
 	if(mysqli_connect_errno()){
 		echo 'errur';
 	}
-	$sql = "SELECT * FROM events WHERE date > '$today'";
+	$sql = "SELECT * FROM events WHERE date > '$today' ORDER BY date";
 	mysqli_query($link, $sql);
 	
 	$result = $link->query($sql);

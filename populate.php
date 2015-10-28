@@ -16,7 +16,7 @@
 	}
 	$categoryTextDefault = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
 	$categoryText = $categoryTextDefault;
-	$sql = "SELECT * FROM ". $categoryText;
+	$sql = "SELECT * FROM ". $categoryText. " ORDER BY svgImageLink";
 	mysqli_query($link, $sql);
 	$result = $link->query($sql);
 	echo'
@@ -26,6 +26,7 @@
 		<title>Ali</title>
 		<meta charset="utf-8">
 		<meta content="user-scalable=0" name="viewport" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
@@ -49,13 +50,12 @@
 			
 			';
 				if ($result->num_rows > 0) {
-				    // output data of each row
 				    while($row = $result->fetch_assoc()) {
 				        echo '
 				        <div class="item">
 					        <div class="itemImage"><img src="images/'.$row['svgImageLink'].'.svg" alt="'.$row['svgImageLink'].'"></div>
 							<div class="itemName">'.$row['name'].'</div>
-							<div class="itemPrice">'.$row['price'].'</div>
+							<div class="itemPrice">'.$row['price'].'€</div>
 						</div>';
 				    }
 				} else {
